@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Food's Recommendations</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    html,
+    body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .content {
+      flex: 1 0 auto;
+    }
+
+    footer {
+      background-color: #343a40;
+      color: white;
+      padding: 20px 0;
+      position: relative;
+      bottom: -445px;
+      width: 100%;
+    }
+
+    @media (max-width: 767px) {
+      footer {
+        position: relative;
+      }
+    }
+
+    #foodDetails .btn {
+      margin-bottom: 20px;
+      /* Adjust the margin as needed */
+    }
+  </style>
+</head>
+
+
+
+<body class="d-flex flex-column">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">Food's Recommendations</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <div class="container mt-5">
+    <div class="text-center">
+      <img src="https://i.pinimg.com/originals/23/4a/18/234a18dde470e18bb71d1a32bb0e24b1.png" alt=""
+        class="img-fluid mb-4" style="width: 200px; height: auto;">
+    </div>
+
+    <h1 class="text-center mb-4">Please Input The Ingredients You Have Here !!</h1>
+    <div class="form-group">
+      <input type="text" class="form-control" id="ingredients" placeholder="ayam / nasi / kacang / telur">
+    </div>
+    <button class="btn btn-success mb-8" onclick="getRecommendations()">Cari Makanan</button>
+
+    <div id="result" style="display: none;">
+      <div id="userIngredients" class="mt-4"></div>
+      <h2>Rekomendasi Makanan:</h2>
+      <ul id="foodList" class="list-group"></ul>
+    </div>
+
+    <div id="foodDetails" class="mt-5" style="display: none;">
+      <h2></h2>
+      <p id="foodIngredients"></p>
+      <div id="foodVideo"></div>
+      <button class="btn btn-danger" onclick="hideFoodDetails()">Tutup</button>
+    </div>
+  </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2023 Food's Recommendations</p>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $('.navbar-toggler').on('click', function () {
+        $(this).toggleClass('active');
+      });
+    });
+  </script>
+</body>
+
+</html>

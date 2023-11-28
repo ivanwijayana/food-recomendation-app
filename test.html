@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Menampilkan Video YouTube</title>
+</head>
+<body>
+
+  <h1>Video Tutorial</h1>
+  
+  <div id="video-container">
+    <!-- Tempat video akan ditampilkan -->
+  </div>
+
+  <script>
+    const database = [
+      { 
+        name: "Ayam Goreng", 
+        ingredients: ["ayam", "tepung terigu", "telur", "bumbu", "minyak"], 
+        videoLink: '<iframe width="560" height="315" src="https://www.youtube.com/embed/ly36kn0ug4k?si=NsYOBOxtAT62vBLh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
+      },
+      // Add more food items as needed
+    ];
+
+    // Function to load video from database
+    function loadVideoFromDatabase() {
+      const videoContainer = document.getElementById('video-container');
+      const videoLinkFromDatabase = database[0].videoLink; // Change index according to the video you want to display
+      videoContainer.innerHTML = videoLinkFromDatabase;
+    }
+
+    // Call function to load video from database
+    loadVideoFromDatabase();
+  </script>
+
+</body>
+</html>
