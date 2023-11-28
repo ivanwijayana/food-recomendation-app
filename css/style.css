@@ -10,6 +10,11 @@ body {
   flex-direction: column;
 }
 
+.container {
+    font-size: 25px;
+    height: 1000px;
+}
+
 .content {
   flex: 1 0 auto;
 }
@@ -23,7 +28,7 @@ footer {
   width: 100%;
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (max-width: 767px) {
   footer {
     position: relative;
   }
