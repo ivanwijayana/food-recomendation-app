@@ -270,25 +270,25 @@ const database = [
       "minyak untuk menumis",
     ],
     videoLink:
-      "https://www.youtube.com/watch?v=ycQUHySxSlA&ab_channel=resepsimbok",
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/ycQUHySxSlA?si=W9Hdld7b_OVETJbJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
   },
   {
     name: "Sayur Lodeh",
     ingredients: ["sayuran", "santan", "bumbu rempah", "garam"],
     videoLink:
-      "https://www.youtube.com/watch?v=K__oFZwivZI&ab_channel=NuraainiSoewarto",
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/K__oFZwivZI?si=qqohtFt9ALwK8ABA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
   },
   {
     name: "Gado-gado",
     ingredients: ["sayuran", "bumbu kacang"],
     videoLink:
-      "https://www.youtube.com/watch?v=Jm1ThTdVgwo&ab_channel=YongkiGunawan",
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/Jm1ThTdVgwo?si=D3-kH1Q3OmFHUYrT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
   },
   {
     name: "Sayur Asem",
     ingredients: ["sayuran", "asam Jawa", "bumbu", "garam"],
     videoLink:
-      "https://www.youtube.com/watch?v=iy4iAaUjh0A&ab_channel=DevinaHermawan",
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/iy4iAaUjh0A?si=AP1rUG8FzAxojRY4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
   },
   {
     name: "Sop Sayuran",
@@ -299,37 +299,37 @@ const database = [
       "garam dan merica",
     ],
     videoLink:
-      "https://www.youtube.com/watch?v=2ulX5MZp5sw&ab_channel=ArdiyantiUlyana",
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/2ulX5MZp5sw?si=xOySVTtl346FMxts" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
   },
   {
     name: "Sayur Bening",
     ingredients: ["sayuran", "air", "bawang putih", "garam"],
     videoLink:
-      "https://www.youtube.com/watch?v=mLQYV4zNtr0&ab_channel=SimpleRudyTV",
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/mLQYV4zNtr0?si=gbB6rh-vdJm9kRyP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
   },
   {
     name: "Lalapan",
     ingredients: ["sayuran segar", "sambal/kecap"],
     videoLink:
-      "https://www.youtube.com/watch?v=TRbPybuVJsY&ab_channel=resepsimbok",
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/TRbPybuVJsY?si=rufwW53PD2a0oGVO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
   },
   {
     name: "Rujak",
     ingredients: ["buah-buahan segar", "bumbu rujak"],
     videoLink:
-      "https://www.youtube.com/watch?v=LthIztQsx34&ab_channel=SajianBunda",
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/LthIztQsx34?si=EfnKxu5wnXidG5BN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
   },
   {
     name: "Salad Sayuran",
     ingredients: ["sayuran hijau", "topping", "dressing"],
     videoLink:
-      "https://www.youtube.com/watch?v=Oj7WWQz2rNA&ab_channel=ResepDapurSimple",
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/Oj7WWQz2rNA?si=rRvpEWX4OgdtnDuD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
   },
   {
     name: "Sayur Mayur",
     ingredients: ["sayuran", "bumbu"],
     videoLink:
-      "https://www.youtube.com/watch?v=8GGqcHS5zv4&ab_channel=tripujis",
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/8GGqcHS5zv4?si=Rzym1crcIqdsCxzp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
   },
 
   // Jengkol
@@ -346,7 +346,7 @@ const database = [
       "daun salam",
     ],
     videoLink:
-      "https://www.youtube.com/watch?v=HwU_wxLusrw&ab_channel=MasakManiak",
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/HwU_wxLusrw?si=fTap_62Gahg2vDIz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
   },
   {
     name: "Sambal Jengkol",
@@ -360,12 +360,9 @@ const database = [
       "garam",
     ],
     videoLink:
-      "https://www.youtube.com/watch?v=9BeuyqyO-z8&ab_channel=MbakNing",
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/9BeuyqyO-z8?si=tU53n8lBFHke4VuN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
   },
-  {
-    name: "Karedok Jengkol",
-    ingredients: ["jengkol", "sayuran segar", "bumbu kacang"],
-  },
+
   {
     name: "Jengkol Goreng Balado",
     ingredients: [
@@ -378,7 +375,7 @@ const database = [
       "garam",
     ],
     videoLink:
-      "https://www.youtube.com/watch?v=IrXcWILVSkQ&ab_channel=RuriAprilia",
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/IrXcWILVSkQ?si=rqtak3aIaPJ_wccM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
   },
   {
     name: "Orek Jengkol",
@@ -391,31 +388,31 @@ const database = [
       "gula",
     ],
     videoLink:
-      "https://www.youtube.com/watch?v=jUEFLZ7KD3k&ab_channel=hobymasakchannel",
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/jUEFLZ7KD3k?si=34SbWes0qGW10ipL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
   },
   {
     name: "Sayur Lodeh Jengkol",
     ingredients: ["jengkol", "sayuran", "santan", "bumbu rempah", "garam"],
     videoLink:
-      "https://www.youtube.com/watch?v=K-kKVkaEs98&ab_channel=THEBESTIKRTV",
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/K-kKVkaEs98?si=pq8RdQKOIUxiUVRb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
   },
   {
     name: "Rendang Jengkol",
     ingredients: ["jengkol", "santan", "bumbu rendang"],
     videoLink:
-      "https://www.youtube.com/watch?v=lOjYYJbT6bo&ab_channel=MelvinChandFamily",
+      '',
   },
   {
     name: "Soto Jengkol",
     ingredients: ["jengkol", "bumbu soto", "santan", "bahan pelengkap soto"],
     videoLink:
-      "https://www.youtube.com/watch?v=oY_MjPVbWts&ab_channel=SayangKeluarga",
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/oY_MjPVbWts?si=Yldzw90ufDVxWcBF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
   },
   {
     name: "Gulai Jengkol",
     ingredients: ["jengkol", "bumbu gulai", "santan", "daun jeruk"],
     videoLink:
-      "https://www.youtube.com/watch?v=KL2LFjkq_xM&ab_channel=MelvinChandFamily",
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/KL2LFjkq_xM?si=oB4FUXWQCZUfB2kh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
   },
   {
     name: "Keripik Jengkol",
@@ -427,7 +424,7 @@ const database = [
       "minyak untuk menggoreng",
     ],
     videoLink:
-      "https://www.youtube.com/watch?v=w9fTkRsF3qo&ab_channel=TitiGaleri",
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/w9fTkRsF3qo?si=l4XIFr_7M0qy-ppV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
   },
 
   // Ikan
@@ -435,19 +432,19 @@ const database = [
     name: "Pindang Ikan",
     ingredients: ["ikan", "asam Jawa", "bumbu rempah", "garam"],
     videoLink:
-      "https://www.youtube.com/watch?v=C_cvksbzVZk&ab_channel=TheHasanVideo",
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/C_cvksbzVZk?si=1txI_yWm5VXbpqVV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
   },
   {
     name: "Pepes Ikan",
     ingredients: ["ikan", "bumbu rempah", "daun pisang"],
     videoLink:
-      "https://www.youtube.com/watch?v=Mjkn-gPYx8k&ab_channel=DailyMamaRiss",
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/Mjkn-gPYx8k?si=vN0KD5NFpv83BRKX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
   },
   {
     name: "Ikan Bakar",
     ingredients: ["ikan", "bumbu marinasi", "bumbu taburan"],
     videoLink:
-      "https://www.youtube.com/watch?v=ytg0nSt6k4k&ab_channel=DapurMamahHawa",
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/ytg0nSt6k4k?si=jjBBzKrOd9ji8JOr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
   },
   {
     name: "Ikan Goreng Tepung",
@@ -459,7 +456,7 @@ const database = [
       "bumbu",
     ],
     videoLink:
-      "https://www.youtube.com/watch?v=ad7Q4MI50Pk&ab_channel=LimauNipis",
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/ad7Q4MI50Pk?si=gf5bF9hyd_kBVUNe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
   },
   {
     name: "Pecel Lele",
@@ -469,37 +466,32 @@ const database = [
       "bumbu tepung",
       "minyak untuk menggoreng",
     ],
-    videoLink: "https://www.youtube.com/watch?v=uwMA9TygWEM&ab_channel=CRCOOK",
+    videoLink: '<iframe width="560" height="315" src="https://www.youtube.com/embed/uwMA9TygWEM?si=XV99SrXCAzGskVJu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
   },
   {
     name: "Sambal Ikan Roa",
     ingredients: ["ikan", "ikan roa", "bumbu sambal"],
     videoLink:
-      "https://www.youtube.com/watch?v=YaBSXcell2k&ab_channel=CeceromedKitchen",
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/YaBSXcell2k?si=w19tee4bGv2jdkus" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
   },
   {
     name: "Ikan Asam Pedas",
     ingredients: ["ikan", "bumbu asam pedas"],
     videoLink:
-      "https://www.youtube.com/watch?v=_-SLybF0d5E&ab_channel=IndoculinaireHunter",
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/_-SLybF0d5E?si=18qqpkx5ACE0qhtm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
   },
   {
     name: "Sayur Laut Kuah Asam",
     ingredients: ["ikan", "sayuran", "asam Jawa", "bumbu"],
     videoLink:
-      "https://www.youtube.com/watch?v=81zzTTyYaxM&ab_channel=TRANS7OFFICIAL",
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/81zzTTyYaxM?si=PZqoVkaHUHdWMZY8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
   },
-  {
-    name: "Ikan Pepes Pedas",
-    ingredients: ["ikan", "bumbu pedas", "daun pisang"],
-    videoLink:
-      "https://www.youtube.com/watch?v=PbYENZf81uw&ab_channel=CeceromedKitchen",
-  },
+ 
   {
     name: "Ikan Kuah Kuning",
     ingredients: ["ikan", "bumbu kuah kuning"],
     videoLink:
-      "https://www.youtube.com/watch?v=OjrQs9YZ8g0&ab_channel=AdeKoerniawan",
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/OjrQs9YZ8g0?si=10udVQaGhOfQgwgD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
   },
 ];
 
