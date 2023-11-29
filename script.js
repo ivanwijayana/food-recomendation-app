@@ -73,7 +73,7 @@ const database = [
   {
     name: "Ayam Penyet",
     ingredients: ["ayam", "bumbu penyet", "minyak"],
-    videoLink: "https://youtu.be/H9V5DGGVI6s?si=NZc5O5XPZy66iKcA",
+    videoLink: '<iframe width="560" height="315" src="https://www.youtube.com/embed/H9V5DGGVI6s?si=6YL8JuDWfT9YCjsn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
   },
 
   // Bahan Tempe
@@ -88,7 +88,7 @@ const database = [
       "merica",
       "minyak untuk menggoreng",
     ],
-    videoLink: "https://youtu.be/wpztU8eWPHA?si=MBhbvEXczrRf5Whe",
+    videoLink: '<iframe width="560" height="315" src="https://www.youtube.com/embed/wpztU8eWPHA?si=Did-X_KfAQqOLCVt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
   },
   {
     name: "Tempe Goreng",
@@ -99,7 +99,7 @@ const database = [
       "merica",
       "minyak untuk menggoreng",
     ],
-    videoLink: "https://youtube.com/shorts/wayuTRhG-iM?si=qUIsJOR2q99YAd_2",
+    videoLink: '<iframe width="560" height="315" src="https://www.youtube.com/embed/gZ7T47eZ7mI?si=pcCoFcny9rveT1IA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
   },
   {
     name: "Tahu Isi",
@@ -114,7 +114,7 @@ const database = [
       "merica",
       "minyak untuk menggoreng",
     ],
-    videoLink: "https://youtu.be/3RYjE7FgKcQ?si=hHRU1IfJMjFCtr6m",
+    videoLink: '<iframe width="560" height="315" src="https://www.youtube.com/embed/3RYjE7FgKcQ?si=Lv4KwHid-PRNNoJY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
   },
   {
     name: "Tempe Bacem",
@@ -126,7 +126,7 @@ const database = [
       "garam",
       "air",
     ],
-    videoLink: "https://youtu.be/O5gW8frDfzA?si=wfXAxicdLvlalbWV",
+    videoLink: '<iframe width="560" height="315" src="https://www.youtube.com/embed/O5gW8frDfzA?si=p3GH811C692Zvguv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
   },
   {
     name: "Tahu Telur",
@@ -138,7 +138,7 @@ const database = [
       "merica",
       "minyak untuk menggoreng",
     ],
-    videoLink: "https://youtu.be/nER0xlqV3rs?si=6M4ne6ohYGk7Ouvl",
+    videoLink: '<iframe width="560" height="315" src="https://www.youtube.com/embed/nER0xlqV3rs?si=-9qM2QIRNP1kFWln" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
   },
   {
     name: "Tempe Mendoan",
@@ -150,7 +150,7 @@ const database = [
       "daun bawang",
       "minyak untuk menggoreng",
     ],
-    videoLink: "https://youtu.be/u9hGk29FSi4?si=7XJOsNINOyOhzD15",
+    videoLink: '<iframe width="560" height="315" src="https://www.youtube.com/embed/u9hGk29FSi4?si=V1JMW0kgw3848Myb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
   },
   {
     name: "Tahu Lada Hitam",
@@ -163,7 +163,7 @@ const database = [
       "garam",
       "minyak untuk menumis",
     ],
-    videoLink: "https://youtu.be/HdgydzRdJPI?si=xKfq4-jVKBlFHQ6T",
+    videoLink: '<iframe width="560" height="315" src="https://www.youtube.com/embed/HdgydzRdJPI?si=4W7UyN1dkf0h-T4L" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
   },
   {
     name: "Tempe Orek",
@@ -177,7 +177,7 @@ const database = [
       "merica",
       "minyak untuk menumis",
     ],
-    videoLink: "https://youtu.be/JeVO80ZA9mE?si=fpsvaTqp_clZ6G2e",
+    videoLink: '<iframe width="560" height="315" src="https://www.youtube.com/embed/JeVO80ZA9mE?si=gJcK9uddlB25LCeQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
   },
   {
     name: "Tahu Sambal",
@@ -189,14 +189,15 @@ const database = [
       "garam",
       "minyak untuk menumis",
     ],
-    videoLink: "https://youtu.be/nA3KsXYWGxo?si=-Vgai4C2vp7Dp5Wz",
+    videoLink: '<iframe width="560" height="315" src="https://www.youtube.com/embed/nA3KsXYWGxo?si=7IjrH8R8uukFCh1s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
   },
   {
     name: "Tempe Penyet",
     ingredients: ["tempe", "bumbu penyet", "minyak untuk menggoreng"],
-    videoLink: "https://youtu.be/Lq501Yn_qFw?si=z3rLyeE44FTSt36k",
+    videoLink: '<iframe width="560" height="315" src="https://www.youtube.com/embed/Lq501Yn_qFw?si=684oLsdJIv0To_q5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
   },
 
+  // Baru sampe sini
   // Telur
   {
     name: "Telur Dadar",
