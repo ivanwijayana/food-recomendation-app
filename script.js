@@ -202,27 +202,27 @@ const database = [
   {
     name: "Telur Dadar",
     ingredients: ["telur", "garam", "merica", "minyak untuk menggoreng"],
-    videoLink: "https://youtube.com/shorts/xuEzJ1b0Lnc?si=eg5VwLWvtSQM1FXg",
+    videoLink: '<iframe width="560" height="315" src="https://www.youtube.com/embed/cIbaMvN6sUk?si=S8xsBFgTaYP_q0U3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
   },
   {
     name: "Omelet",
     ingredients: ["telur", "susu", "garam", "merica", "topping"],
-    videoLink: "https://youtu.be/GQpNQo1D-mg?si=LvbI9LlO6N5dGaTb",
+    videoLink: '<iframe width="560" height="315" src="https://www.youtube.com/embed/GQpNQo1D-mg?si=TMvAOLYa91d-Td_H" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
   },
   {
     name: "Telur Rebus",
     ingredients: ["telur", "air"],
-    videoLink: "https://youtube.com/shorts/-9__X0eG40s?si=XyFVg3_SG_XqSFLj",
+    videoLink: '<iframe width="560" height="315" src="https://www.youtube.com/embed/YIgXYz9cHvI?si=OpJ1aLSr3k5LZA_5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
   },
   {
     name: "Telur Mata Sapi",
     ingredients: ["telur", "minyak untuk menggoreng"],
-    videoLink: "https://youtu.be/ryVustzkY2c?si=aJYJhQDB60pbZqxa",
+    videoLink: '<iframe width="560" height="315" src="https://www.youtube.com/embed/ryVustzkY2c?si=WxfWnu0oWPsglljQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
   },
   {
     name: "Telur Gulung",
     ingredients: ["telur", "garam", "merica", "minyak untuk menggoreng"],
-    videoLink: "https://youtu.be/T3oWU4I-jSg?si=RUNWux6fZkeQdFxq",
+    videoLink: <iframe width="560" height="315" src="https://www.youtube.com/embed/T3oWU4I-jSg?si=E_JVFayA4t4NYiVF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>,
   },
   {
     name: "Egg Benedict",
@@ -234,29 +234,29 @@ const database = [
       "bawang putih",
       "cuka",
     ],
-    videoLink: "https://youtu.be/v6ulQhr_Ym8?si=XpAwXBnsaKETuhCi",
+    videoLink: <iframe width="560" height="315" src="https://www.youtube.com/embed/v6ulQhr_Ym8?si=OABFfGmsyjuMzs1O" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>,
   },
   {
     name: "Frittata",
     ingredients: ["telur", "sayuran", "keju", "garam", "merica"],
-    videoLink: "https://youtu.be/ZtSvoCZ858I?si=GjZdvXGSz61MaWeL",
+    videoLink: <iframe width="560" height="315" src="https://www.youtube.com/embed/ZtSvoCZ858I?si=MPKr-zJYrM3j6DM7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>,
   },
   {
     name: "Quiche",
     ingredients: ["telur", "susu", "keju", "sayuran atau daging"],
-    videoLink: "https://youtu.be/EwfRDcszaxQ?si=QCGsMKVNNAmvLqmO",
+    videoLink: <iframe width="560" height="315" src="https://www.youtube.com/embed/EwfRDcszaxQ?si=NPKYSIAVlexpbbz5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>,
   },
   {
     name: "Telur Balado",
     ingredients: ["telur", "bumbu balado", "minyak untuk menumis"],
     videoLink:
-      "https://www.youtube.com/watch?v=sUQwLmK34AA&ab_channel=DapurTomatCeri",
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/sUQwLmK34AA?si=VFUnACI10Z8f68j8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
   },
   {
     name: "Telur Pindang",
     ingredients: ["telur", "kuah pindang"],
     videoLink:
-      "https://www.youtube.com/watch?v=xLSHCEzAKfI&ab_channel=DapurHeni",
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/xLSHCEzAKfI?si=1Xf_uAt3gNiGxqeo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>,
   },
 
   // Sayuran
