@@ -5,7 +5,43 @@
   <meta charset="UTF-8">
   <title>Food's Recommendations</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <link rel="stylesheet" src="css/style.css">
+  <style>
+    html,
+    body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .content {
+      flex: 1 0 auto;
+    }
+
+    footer {
+      background-color: #343a40;
+      color: white;
+      padding: 20px 0;
+      position: relative;
+      bottom: -445px;
+      width: 100%;
+    }
+
+    @media (max-width: 767px) {
+      footer {
+        position: relative;
+      }
+    }
+
+    #foodDetails .btn {
+      margin-bottom: 20px;
+      /* Adjust the margin as needed */
+    }
+  </style>
 </head>
 
 
@@ -27,7 +63,9 @@
           <li class="nav-item">
             <a class="nav-link" href="about.html">About</a>
           </li>
-         
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
         </ul>
       </div>
     </div>
@@ -62,7 +100,9 @@
   </div>
 
   <!-- Footer -->
-
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2023 Food's Recommendations</p>
+  </footer>
 
   <script src="script.js"></script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>

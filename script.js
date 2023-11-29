@@ -1,10 +1,12 @@
+
 const database = [
   // Bahan Ayam
   {
     name: "Ayam Goreng",
     ingredients: ["ayam", "tepung terigu", "telur", "bumbu", "minyak"],
     videoLink:
-'<iframe width="560" height="315" src="https://www.youtube.com/embed/j9a9EB0pGTo?si=ci84Ol_BhqZmxTWM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'  },
+      '<iframe width="560" height="315" src="https://www.youtube.com/embed/j9a9EB0pGTo?si=ci84Ol_BhqZmxTWM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'  
+  },
   {
     name: "Sup Ayam",
     ingredients: [
@@ -74,10 +76,10 @@ const database = [
     name: "Ayam Penyet",
     ingredients: ["ayam", "bumbu penyet", "minyak"],
     videoLink: '<iframe width="560" height="315" src="https://www.youtube.com/embed/H9V5DGGVI6s?si=6YL8JuDWfT9YCjsn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
-  },
+    
+  }, // AYAM DONE
 
-  // Bahan Tempe
-  // Bahan Tahu
+  // Bahan Tempe & Tempe
 
   {
     name: "Tahu Goreng",
@@ -197,7 +199,6 @@ const database = [
     videoLink: '<iframe width="560" height="315" src="https://www.youtube.com/embed/Lq501Yn_qFw?si=684oLsdJIv0To_q5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
   },
 
-  // Baru sampe sini
   // Telur
   {
     name: "Telur Dadar",
@@ -222,7 +223,7 @@ const database = [
   {
     name: "Telur Gulung",
     ingredients: ["telur", "garam", "merica", "minyak untuk menggoreng"],
-    videoLink: <iframe width="560" height="315" src="https://www.youtube.com/embed/T3oWU4I-jSg?si=E_JVFayA4t4NYiVF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>,
+    videoLink: '<iframe width="560" height="315" src="https://www.youtube.com/embed/T3oWU4I-jSg?si=E_JVFayA4t4NYiVF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
   },
   {
     name: "Egg Benedict",
@@ -234,17 +235,17 @@ const database = [
       "bawang putih",
       "cuka",
     ],
-    videoLink: <iframe width="560" height="315" src="https://www.youtube.com/embed/v6ulQhr_Ym8?si=OABFfGmsyjuMzs1O" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>,
+    videoLink: '<iframe width="560" height="315" src="https://www.youtube.com/embed/v6ulQhr_Ym8?si=OABFfGmsyjuMzs1O" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
   },
   {
     name: "Frittata",
     ingredients: ["telur", "sayuran", "keju", "garam", "merica"],
-    videoLink: <iframe width="560" height="315" src="https://www.youtube.com/embed/ZtSvoCZ858I?si=MPKr-zJYrM3j6DM7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>,
+    videoLink: '<iframe width="560" height="315" src="https://www.youtube.com/embed/ZtSvoCZ858I?si=MPKr-zJYrM3j6DM7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
   },
   {
     name: "Quiche",
     ingredients: ["telur", "susu", "keju", "sayuran atau daging"],
-    videoLink: <iframe width="560" height="315" src="https://www.youtube.com/embed/EwfRDcszaxQ?si=NPKYSIAVlexpbbz5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>,
+    videoLink: '<iframe width="560" height="315" src="https://www.youtube.com/embed/EwfRDcszaxQ?si=NPKYSIAVlexpbbz5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
   },
   {
     name: "Telur Balado",
@@ -256,7 +257,7 @@ const database = [
     name: "Telur Pindang",
     ingredients: ["telur", "kuah pindang"],
     videoLink:
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/xLSHCEzAKfI?si=1Xf_uAt3gNiGxqeo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>,
+    '<iframe width="560" height="315" src="https://www.youtube.com/embed/xLSHCEzAKfI?si=1Xf_uAt3gNiGxqeo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
   },
 
   // Sayuran
@@ -397,12 +398,6 @@ const database = [
       '<iframe width="560" height="315" src="https://www.youtube.com/embed/K-kKVkaEs98?si=pq8RdQKOIUxiUVRb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>',
   },
   {
-    name: "Rendang Jengkol",
-    ingredients: ["jengkol", "santan", "bumbu rendang"],
-    videoLink:
-      '',
-  },
-  {
     name: "Soto Jengkol",
     ingredients: ["jengkol", "bumbu soto", "santan", "bahan pelengkap soto"],
     videoLink:
@@ -495,6 +490,8 @@ const database = [
   },
 ];
 
+
+
 function getRecommendations() {
   const input = document
     .getElementById("ingredients")
@@ -575,7 +572,10 @@ function showFoodDetails(food) {
       })
       .join("");
 
-    foodIngredients.innerHTML = `<h2>Bahan-bahan Makanan:</h2><ul>${listItems}</ul>`;
+    const fullIngredients = `<h2>Bahan-bahan Makanan ${selectedFood.name}:</h2><ul>${listItems}</ul>`;
+    foodIngredients.innerHTML = fullIngredients;
+
+
 
     const videoLink = selectedFood.videoLink;
     const foodVideoContainer = document.getElementById("foodVideo");
